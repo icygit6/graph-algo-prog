@@ -3,10 +3,10 @@
 #include <queue>
 using namespace std;
 
-const int MAXN = 100005;
-vector<int> adj[MAXN];
-int parent[MAXN];
-bool visit[MAXN];
+const int maxn = 100005;
+vector<int> adj[maxn];
+int parent[maxn];
+bool visit[maxn];
 
 int main() 
 {
